@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html,
+body {
+    font-family: "Source Sans Pro", 'Times New Roman', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    background-image: linear-gradient(0deg, rgb(95, 249, 95) 0%, rgb(246, 246, 58) 40%, rgb(35, 35, 242) 100%);
+    
+} 
+
+main {
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;    
+    opacity: 0.9;
+    flex-direction: column;
+}
+
+.animation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    width: 100%;
+}
+
+.animation video {
+    height: 600px;
+    width: 980px;
+}
+
+/*------------------------- CARDS -------------------------*/
+
+#cards {
+    padding: 20px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#cards #title-cards {
+    margin: 30px 0;
+}
+
+#cards #all-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+#cards #all-cards .card {
+    flex: 1;
+    padding: 20px 50px;
+}
+
+
+.cards .lista ul {
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    flex-direction: row;
+    
+    padding: 20px;
+    margin: 0 auto;
+    width: 980px;
+}
+
+.cards ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+li .card {
+    flex: 50%;
+}
+
+.card:hover {
+    transition: 0.5s;
+    transform: translateY(-9px);
+}
+
+#introdution-texts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 50px 100px;
+}
+
+#introdution-texts h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#team {
+    margin: 50px;
+    padding: 20px;
+    line-height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+/* ------------------------ CLASSES ESTADOS ----------------------------------- */
+
+.state-ac {
+    margin-top: -250px;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background-image: url(./assets/acre-m.png);
+    object-fit: contain;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+.state-sp {
+    margin-top: -250px;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background-image: url(./assets/sao-paulo-m.png);
+    object-fit: contain;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+.state-am {
+    margin-top: -250px;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background-image: url(./assets/amazonas-m.png);
+    object-fit: contain;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+.state-pa {
+    margin-top: -250px;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background-image: url(./assets/para-m.png);
+    object-fit: contain;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+.state-es {
+    margin-top: -250px;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background-image: url(./assets/espirito-s-m.png);
+    object-fit: contain;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+.state-rj {
+    margin-top: -250px;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background-image: url(./assets/rio-m.png);
+    object-fit: contain;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+.state-rs {
+    margin-top: -250px;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background-image: url(./assets/rio-g-sul-m.png);
+    object-fit: contain;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
