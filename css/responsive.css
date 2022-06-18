@@ -102,11 +102,31 @@
         transition: transform 0.5s ease;
     } 
 
-    .map-area-transform {
-        display: none;
+    .animation {
+        max-width: 330px;
+        margin: 10px auto;
     }
 
-    aside {
-        width: 100%;
+    .animation video {
+        width: 330px;
+        height: 300px;
     }
+
+    #introdution-texts {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    footer p{
+        font-size: 12px;
+    }
+
+    #team {
+        margin: 20px;
+    }
+
+    #team img {
+        width: 300px;
+    }
+
 }
